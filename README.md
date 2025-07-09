@@ -30,7 +30,7 @@ flowchart TD
     end
 
     A2 -->|TCP JSON| B1[Python Listener]
-    B1 -->|UDP: "AZ <deg> EL <deg>"| C1[ESP32 Board]
+    B1 -->|UDP AZ/EL Data| C1[ESP32 Board]
     C1 -->|PWM| D1[Pan Servo]
     C1 -->|PWM| D2[Tilt Servo]
 ```
