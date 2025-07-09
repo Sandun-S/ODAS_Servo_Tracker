@@ -1,5 +1,5 @@
 
-# ODAS-Based 2D Sound Source Tracker with Servo Control
+# ODAS-Based 3D Sound Source Tracker with Servo Control
 
 This project uses the ODAS (Open embeddeD Audition System) framework with a modified ODAS Web server to track a sound source in real-time and control two servos (Pan and Tilt) on an ESP32 accordingly.
 
